@@ -174,10 +174,7 @@ hit1.addEventListener('click', () => {
     };
     
 });
-/*
-animation-name:attack;
-animation-duration: 1s;
-animation-direction: right;*/
+
 
 // Player 2 attacks
 const hit2 = document.getElementById('hit2');
@@ -243,10 +240,9 @@ yield1.addEventListener('click', () => {
         creationPanel.style.display = "grid";
         emptyNames();
         //reset();
-    });
+    })
     
-    //alert(`I, ${name1.value}, surrender. ${name2.value} has won !`);
-});
+})
 yield2.addEventListener('click', () => {
     modalBox.style.display= "block";
     boxText.innerHTML = `Game over!<br> I ${name2.value}, surrender. ${name1.value} has won, fair and square!`;
@@ -259,8 +255,8 @@ gameBTN();
         creationPanel.style.display = "grid";
         emptyNames();
         //reset();
-    });
-    //alert(`I, ${name2.value}, surrender. ${name1.value} has won !`);
+    })
+  
 });
 hit1.disabled = false;
 hit2.disabled = false;

@@ -98,7 +98,7 @@ form {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    
+    max-width: fit-content;
 }
 #creation_panel_2{
     display: flex;
@@ -108,6 +108,7 @@ form {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+    max-width: fit-content;
 }
 .player_input{
     padding-top: 1.5em;
