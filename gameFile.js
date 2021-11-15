@@ -25,28 +25,28 @@ function Character(race, weapon, picture){
 var assassin = {
     race : 'assassin',
     weapon : 'blades',
-    picture : "assassin2.png",
+    picture : "assassin2.webp",
 }
 //console.log(assassin);
 
 var orc = {
     race : 'orc',
     weapon : 'axe',
-    picture : "orc.png",
+    picture : "orc.webp",
 }
 //console.log(orc);
 
 var elf = {
     race : 'elf',
     weapon : 'bow',
-    picture : "elf.png",
+    picture : "elf.webp",
 }
 //console.log(elf);
 
 var wizard = {
     race : 'wizard',
     weapon : 'staff',
-    picture : "wizard.png",
+    picture : "wizard.webp",
 }
 //console.log(wizard);
 
